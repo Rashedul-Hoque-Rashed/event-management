@@ -1,0 +1,91 @@
+[
+    {
+      "id": 1,
+      "name": "Emily Anderson",
+      "position": "Event Manager",
+      "email": "emily.anderson@example.com",
+      "phone": "+1 (123) 456-7890",
+      "department": "Event Management",
+      "location": "Los Angeles",
+      "bio": "Emily is a seasoned event manager with a passion for creating memorable experiences. She excels in planning and executing a wide range of entertainment events, from concerts to film premieres.",
+      "profile_image": "https://i.ibb.co/PDzh0mh/Emily-Anderson.jpg"
+    },
+    {
+      "id": 2,
+      "name": "David Carter",
+      "position": "Marketing Coordinator",
+      "email": "david.carter@example.com",
+      "phone": "+1 (234) 567-8901",
+      "department": "Marketing",
+      "location": "New York",
+      "bio": "David is a creative marketing coordinator with a knack for promoting entertainment events. He specializes in crafting compelling marketing campaigns that drive ticket sales.",
+      "profile_image": "https://i.ibb.co/vXpZKLb/David-Carter.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Sophie Martin",
+      "position": "Ticketing Specialist",
+      "email": "sophie.martin@example.com",
+      "phone": "+1 (345) 678-9012",
+      "department": "Ticketing",
+      "location": "Chicago",
+      "bio": "Sophie is a dedicated ticketing specialist who ensures a seamless ticketing process for event attendees. She has a passion for customer service and ticket management.",
+      "profile_image": "https://i.ibb.co/DwKf0tw/Sophie-Martin.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Daniel Harris",
+      "position": "Technical Director",
+      "email": "daniel.harris@example.com",
+      "phone": "+1 (456) 789-0123",
+      "department": "Technical",
+      "location": "San Francisco",
+      "bio": "Daniel is a technical director who oversees the audiovisual and technical aspects of events. He ensures that sound, lighting, and visuals enhance the event experience.",
+      "profile_image": "https://i.ibb.co/4ZQ1mp2/Daniel-Harris.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Megan White",
+      "position": "Creative Designer",
+      "email": "megan.white@example.com",
+      "phone": "+1 (567) 890-1234",
+      "department": "Design",
+      "location": "Miami",
+      "bio": "Megan is a creative designer with a passion for visual storytelling. She designs event posters, banners, and promotional materials that captivate the audience.",
+      "profile_image": "https://i.ibb.co/Kx3kzWg/Megan-White1.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Olivia Parker",
+      "position": "Customer Support Specialist",
+      "email": "olivia.parker@example.com",
+      "phone": "+1 (789) 012-3456",
+      "department": "Customer Support",
+      "location": "Denver",
+      "bio": "Olivia is a customer support specialist who provides top-notch assistance to event attendees. She is dedicated to ensuring a positive experience for all customers.",
+      "profile_image": "https://i.ibb.co/YcvvbjP/Olivia-Parker.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Ava Rodriguez",
+      "position": "Public Relations Manager",
+      "email": "ava.rodriguez@example.com",
+      "phone": "+1 (901) 234-5678",
+      "department": "Public Relations",
+      "location": "Phoenix",
+      "bio": "Ava is a skilled public relations manager who handles media relations and event publicity. She is known for building positive relationships with the press and media outlets.",
+      "profile_image": "https://i.ibb.co/HxcT7Y0/Ava-Rodriguez.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Noah Walker",
+      "position": "Finance Analyst",
+      "email": "noah.walker@example.com",
+      "phone": "+1 (012) 345-6789",
+      "department": "Finance",
+      "location": "Boston",
+      "bio": "Noah is a finance analyst responsible for budgeting and financial analysis for entertainment events. He plays a crucial role in ensuring financial stability.",
+      "profile_image": "https://i.ibb.co/XDW8dP4/Noah-Walker.jpg"
+    }
+  ]
+  

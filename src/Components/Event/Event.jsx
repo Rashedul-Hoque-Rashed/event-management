@@ -7,7 +7,7 @@ const Event = ({ event }) => {
     const { id, title, img, rating, price, short_description } = event;
 
     return (
-        <div className="rounded-lg border p-4 mt-10">
+        <div data-aos="zoom-in-up" className="rounded-lg border p-4 mt-10">
             <img className="w-full h-60 rounded-lg mx-auto" src={img} alt="" />
             <h4 className="text-xl font-bold text-black mt-4 mb-2">{title}</h4>
             <div className="flex items-center gap-2">

@@ -1,5 +1,6 @@
 import Header from "../../Components/Header/Header";
 import Service from "../../Components/Service/Service";
+import Teams from "../../Components/Teams/Teams";
 
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Header/>
             <Service/>
+            <Teams/>
         </div>
     );
 };
