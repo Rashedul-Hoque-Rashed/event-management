@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 
 const Team = ({ team }) => {
 
@@ -5,7 +6,7 @@ const Team = ({ team }) => {
 
     return (
         <div data-aos="zoom-in-up" className="rounded-lg border p-4 mt-10">
-            <div className="flex items-center gap-6">
+            <div className="flex flex-col md:flex-row items-center gap-6">
                 <div>
                     <img className="w-28 h-36 rounded-lg" src={profile_image} alt="" />
                 </div>
@@ -19,5 +20,9 @@ const Team = ({ team }) => {
         </div>
     );
 };
+
+Team.propTypes = {
+    team: PropTypes.object
+}
 
 export default Team;

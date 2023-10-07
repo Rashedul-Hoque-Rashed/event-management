@@ -1,3 +1,4 @@
+import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 import Reviews from "../../Components/Reviews/Reviews";
 import Service from "../../Components/Service/Service";
@@ -11,6 +12,7 @@ const Home = () => {
             <Service/>
             <Teams/>
             <Reviews/>
+            <Footer/>
         </div>
     );
 };

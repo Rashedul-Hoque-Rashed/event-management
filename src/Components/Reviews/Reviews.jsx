@@ -31,7 +31,7 @@ const Reviews = () => {
                 <Swiper
                     modules={[Navigation]}
                     spaceBetween={30}
-                    slidesPerView={3}
+                    slidesPerView={'auto'}
                     breakpoints={{
                         768: {
                             slidesPerView: 3,

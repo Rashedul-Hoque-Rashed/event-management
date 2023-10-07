@@ -1,6 +1,7 @@
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import Rating from "react-rating";
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 
 const Event = ({ event }) => {
 
@@ -21,10 +22,14 @@ const Event = ({ event }) => {
             <p className="mt-2 text-lg font-medium text-slate-700">{short_description}</p>
             <div className="flex justify-between items-center mt-2">
                 <p className="mt-2 text-lg font-medium text-slate-700">Price: {price}$</p>
-                <button className="btn normal-case text-white bg-blue-500 hover:bg-blue-600"><Link to="details">View Details</Link></button>
+                <button className="btn normal-case text-white bg-blue-500 hover:bg-blue-600"><Link to={`/details/${id}`}>View Details</Link></button>
             </div>
         </div>
     );
 };
+
+Event.propTypes = {
+    event: PropTypes.object
+}
 
 export default Event;
