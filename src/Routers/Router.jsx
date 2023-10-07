@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home";
 import Error from "../Pages/Error/Error";
 import Details from "../Pages/Details/Details";
 import Booked from "../Pages/Booked/Booked";
+import Login from "../Pages/Login/Login";
 
 
 
@@ -26,6 +27,10 @@ export const router = createBrowserRouter([
         {
           path: "/booked",
           element: <Booked/>
+        },
+        {
+          path: "/login",
+          element: <Login/>
         }
       ]
     },

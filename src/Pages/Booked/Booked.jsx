@@ -1,5 +1,5 @@
 import Navbar from "../../Components/Navbar/Navbar";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const Booked = () => {
 

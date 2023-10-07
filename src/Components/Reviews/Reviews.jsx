@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
 import 'swiper/css';
@@ -20,7 +20,6 @@ const Reviews = () => {
             .then(data => setUserReviews(data));
     }, [])
 
-    const swiper = useSwiper()
 
     return (
         <div className="mb-24 container mx-auto px-6">
@@ -76,8 +75,8 @@ const Reviews = () => {
 
                 </Swiper>
                 <div className='flex justify-center gap-3 mt-8'>
-                    <button onClick={() => swiper.slidePrev()} className="btn rounded-full prev"><BsArrowLeft /></button>
-                    <button onClick={() => swiper.slideNext()} className="btn rounded-full next"><BsArrowRight /></button>
+                    <button className="btn rounded-full prev"><BsArrowLeft /></button>
+                    <button className="btn rounded-full next"><BsArrowRight /></button>
                 </div>
 
             </div>
