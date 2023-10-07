@@ -1,11 +1,12 @@
 import Header from "../../Components/Header/Header";
+import Service from "../../Components/Service/Service";
 
 
 const Home = () => {
     return (
         <div>
             <Header/>
-            <h2>this is Home</h2>
+            <Service/>
         </div>
     );
 };

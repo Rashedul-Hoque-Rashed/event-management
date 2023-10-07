@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "title": "Concerts and Music Festivals",
+      "img": "https://i.ibb.co/B4zVd1h/Concerts-and-Music-Festivals.jpg",
+      "rating": 4.8,
+      "price": 1200,
+      "short_description": "Immerse yourself in the world of music at our Concerts and Music Festivals.",
+      "full_description": "Experience the magic of live music at our Concerts and Music Festivals. Our events feature a diverse lineup of artists from various genres, ensuring there's something for everyone. Whether you're a rock enthusiast, a pop music lover, or a fan of classical melodies, our stages come alive with the sounds that touch your soul. Feel the energy of the crowd as you dance and sing along to your favorite songs. Indulge in delicious food and beverages while surrounded by the electric atmosphere of live music. Don't miss this opportunity to create lasting memories with friends and fellow music enthusiasts. Get your tickets now and be part of the music magic!"
+    },
+    {
+      "id": 2,
+      "title": "Theater and Performing Arts",
+      "img": "https://i.ibb.co/FV872yS/kyle-head-p6r-NTd-APbuk-unsplash.jpg",
+      "rating": 4.6,
+      "price": 850,
+      "short_description": "Step into the world of drama and artistry at our Theater and Performing Arts events.",
+      "full_description": "A world of drama and artistry awaits you at our Theater and Performing Arts events. Our stages come alive with captivating stories and artistic expressions that will leave you in awe. Experience the power of storytelling through exceptional acting, dance, and music. From classical plays to modern interpretations, our events cater to all tastes and preferences. Immerse yourself in the creativity of the artists and connect with the emotions portrayed on stage. Whether you're a theater enthusiast or a newcomer, you'll find inspiration and entertainment that will stay with you long after the final curtain falls. Join us for an evening of culture, imagination, and unforgettable performances."
+    },
+    {
+      "id": 3,
+      "title": "Film Screenings and Premieres",
+      "img": "https://i.ibb.co/Bg7T0cz/jakob-owens-Ci-UR8z-ISX60-unsplash.jpg",
+      "rating": 4.9,
+      "price": 1050,
+      "short_description": "Be the first to see the latest blockbusters at our Film Screenings and Premieres.",
+      "full_description": "Join us for exclusive Film Screenings and Premieres and be among the first to watch the latest blockbusters before anyone else. Get ready for a cinematic experience like no other, where you can meet the stars and directors of the films. Our events are a celebration of the art of filmmaking, and you'll have the chance to immerse yourself in the world of storytelling through cinema. With a diverse selection of films spanning various genres, there's something for every movie enthusiast. Don't miss this opportunity to be part of the excitement and glamour of the silver screen. Secure your tickets now!"
+    },
+    {
+      "id": 4,
+      "title": "Comedy Shows",
+      "img": "https://i.ibb.co/9cXsT2Y/chad-stembridge-u-Nj9-Ex697-U-unsplash.jpg",
+      "rating": 4.5,
+      "price": 900,
+      "short_description": "Prepare to laugh until it hurts at our Comedy Shows.",
+      "full_description": "Get ready for a night of laughter and humor at our Comedy Shows. Top comedians from around the world will leave you in stitches with their hilarious performances. Our events are a perfect escape from the everyday hustle and bustle, offering a chance to unwind and share moments of joy with friends and family. Whether you enjoy observational humor, witty one-liners, or clever improvisation, our comedians have it all. Prepare to laugh until it hurts and create cherished memories that you'll talk about for years to come. Secure your seats now for a night of non-stop laughter!"
+    },
+    {
+      "id": 5,
+      "title": "Sports Events",
+      "img": "https://i.ibb.co/BVRnxTs/rafael-atantya-CCXLj-SSK1g-E-unsplash.jpg",
+      "rating": 4.7,
+      "price": 1150,
+      "short_description": "Experience the thrill of competition at our Sports Events.",
+      "full_description": "Feel the adrenaline rush at our Sports Events as you witness thrilling competitions and cheer for your favorite teams and athletes. Whether you're a die-hard sports fan or just looking for an exciting day out, our events offer something for everyone. From heart-pounding basketball games to intense soccer matches, our events are packed with action and excitement. Immerse yourself in the energy of the crowd and be part of the sporting history. Don't miss this opportunity to experience the thrill of competition up close. Get your tickets now and join us for an unforgettable sports experience!"
+    },
+    {
+      "id": 6,
+      "title": "Magic Show Extravaganza",
+      "img": "https://i.ibb.co/nLjZq30/mgice.jpg",
+      "rating": 4.9,
+      "price": 950,
+      "short_description": "Prepare to be amazed by mind-bending illusions at our Magic Show Extravaganza.",
+      "full_description": "Enter a world of wonder and astonishment at our Magic Show Extravaganza. Our magicians perform mind-bending tricks and illusions that will leave you spellbound. Witness the impossible become possible as you experience a night of enchantment and mystery. Whether you're a skeptic or a true believer in magic, our events promise to captivate your imagination. Be prepared to question reality and embrace the extraordinary. Secure your tickets now for a night of wonder and amazement that will stay with you long after the final act!"
+    }
+  ]
+  
