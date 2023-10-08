@@ -5,6 +5,7 @@ import Error from "../Pages/Error/Error";
 import Details from "../Pages/Details/Details";
 import Booked from "../Pages/Booked/Booked";
 import Login from "../Pages/Login/Login";
+import Register from "../Pages/Register/Register";
 
 
 
@@ -31,6 +32,10 @@ export const router = createBrowserRouter([
         {
           path: "/login",
           element: <Login/>
+        },
+        {
+          path: "/register",
+          element: <Register/>
         }
       ]
     },
