@@ -1,3 +1,4 @@
+import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 import { useState } from "react";
 
@@ -12,11 +13,11 @@ const Booked = () => {
 
 
     return (
-        <div className="container mx-auto mb-24">
+        <div className="container mx-auto">
             <Navbar />
             <div>
                 {
-                    booked.length !== 0 ? <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 p-5 rounded-lg -mt-[650px] md:-mt-[420px] lg:-mt-[500px]">
+                    booked.length !== 0 ? <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 p-5 mb-24 rounded-lg -mt-[650px] md:-mt-[420px] lg:-mt-[500px]">
                         {
                             isSeeAll ?
                                 booked.map(booking => <div
@@ -58,7 +59,7 @@ const Booked = () => {
                     }
                 </div>
             </div>
-
+<Footer/>
         </div>
     );
 };

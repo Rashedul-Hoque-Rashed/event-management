@@ -1,20 +1,23 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Navbar from "../../Components/Navbar/Navbar";
-import { BsGoogle, BsGithub } from 'react-icons/bs';
-import { useContext } from "react";
+import { BsGoogle, BsGithub, BsEyeSlashFill, BsEyeFill } from 'react-icons/bs';
+import { useContext, useState } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
 import Swal from "sweetalert2";
+import Footer from "../../Components/Footer/Footer";
 
 const Login = () => {
 
     const { googleLogin, githubLogin, login } = useContext(AuthContext);
+    const location = useLocation();
     const Navigate = useNavigate();
+    const [isShow, setIsShow] = useState(true);
 
     const handelGoogle = () => {
         googleLogin()
             .then(res => {
                 console.log(res.user);
-                Navigate('/')
+                Navigate(location?.state ? location.state : "/");
             })
             .catch(err => {
                 console.error(err.message);
@@ -24,7 +27,7 @@ const Login = () => {
         githubLogin()
             .then(res => {
                 console.log(res.user);
-                Navigate('/')
+                Navigate(location?.state ? location.state : "/");
             })
             .catch(err => {
                 console.error(err.message);
@@ -37,25 +40,25 @@ const Login = () => {
         const password = e.target.password.value;
 
         login(email, password)
-        .then(res => {
-            console.log(res.user);
-            Swal.fire({
-                icon: 'success',
-                title: 'Login successful',
-                showConfirmButton: false,
-                timer: 2500
+            .then(res => {
+                console.log(res.user);
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Login successful',
+                    showConfirmButton: false,
+                    timer: 2500
+                })
+                Navigate(location?.state ? location.state : "/");
+
             })
-            Navigate('/');
-            
-        })
-        .catch(err => {
-            Swal.fire({
-                icon: 'error',
-                title: `${err.message}`,
-                showConfirmButton: false,
-                timer: 2500
+            .catch(err => {
+                Swal.fire({
+                    icon: 'error',
+                    title: `${err.message}`,
+                    showConfirmButton: false,
+                    timer: 2500
+                })
             })
-        })
     }
 
 
@@ -79,9 +82,14 @@ const Login = () => {
                                 <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
                                 <input type="email" name="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your email" required />
                             </div>
-                            <div>
+                            <div className="relative">
                                 <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
-                                <input type="password" name="password" id="password" placeholder="••••••••" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+                                <input type={isShow ? "password" : "text"} name="password" id="password" placeholder="••••••••" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+                                <div onClick={() => setIsShow(!isShow)} className="absolute right-4 bottom-3">
+                                    {
+                                        isShow ? <BsEyeSlashFill className="w-5 h-5 text-gray-500" /> : <BsEyeFill className="w-5 h-5 text-gray-500" />
+                                    }
+                                </div>
                             </div>
                             <div className="flex items-center justify-between">
                                 <div className="flex items-start">
@@ -101,6 +109,7 @@ const Login = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
 
     );
