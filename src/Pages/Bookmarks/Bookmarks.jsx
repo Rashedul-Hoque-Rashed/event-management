@@ -37,7 +37,7 @@ const Bookmarks = () => {
                                     <div>
                                         <img className="w-full h-56 rounded-lg" src={bookmark.img} alt="" />
                                         <h4 className="text-xl font-bold mb-2 mt-3">{bookmark.title}</h4>
-                                        <p className="h-12">{bookmark.short_description}</p>
+                                        <p className="">{bookmark.short_description}</p>
                                         <p className="text-lg font-bold mt-2">Price: {bookmark.price}$</p>
                                     </div>
                                     <button className="btn mt-2 normal-case text-white bg-blue-500 hover:bg-blue-600"><Link to={`/details/${bookmark.id}`}>View Details</Link></button>
