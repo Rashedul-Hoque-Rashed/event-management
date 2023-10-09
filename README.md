@@ -2,10 +2,10 @@
 
 ## Live link
 
-click here for the live link: (https://a9-event-management.web.app/)
+click here for the live link: https://a9-event-management.web.app/
 
 
-## features and functionalities
+## Features and functionalities
 
 - Has a responsive navbar, showing current routes.
 - At the end of the navbar there is a login button, if you click this button you will see the login page to login our website.

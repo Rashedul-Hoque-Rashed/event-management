@@ -80,7 +80,6 @@ const Navbar = () => {
                     {links}
                 </ul>
             </div>
-            
             <div className="navbar-end">
             <div className="mr-2">
                 {
