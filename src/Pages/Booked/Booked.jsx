@@ -26,13 +26,13 @@ useEffect(()=>{
     return (
         <div className="container mx-auto">
             <Navbar />
-            <div>
+            <div className="mb-20">
                 {
                     noData ?
                         <p className="text-3xl my-72 font-bold text-center -mt-[500px] md:-mt-96">
                             {noData}
                         </p> :
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 p-5 mb-40 rounded-lg -mt-[650px] md:-mt-[420px] lg:-mt-[500px]">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 p-5 mb-10 rounded-lg -mt-[650px] md:-mt-[420px] lg:-mt-[500px]">
                             {
                                 isSeeAll ?
                                     booking.map(booking => <div
