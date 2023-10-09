@@ -10,7 +10,7 @@ import Footer from "../../Components/Footer/Footer";
 
 const Register = () => {
 
-    const { googleLogin, githubLogin, singUp, logOut } = useContext(AuthContext);
+    const { googleLogin, githubLogin, singUp } = useContext(AuthContext);
     const [isShow, setIsShow] = useState(true);
 
     const Navigate = useNavigate();
@@ -65,8 +65,8 @@ const Register = () => {
                     showConfirmButton: false,
                     timer: 2500
                 })
-                logOut();
-                Navigate('/login')
+                Navigate('/')
+                window.location.reload();
             })
             .catch(err => {
                 Swal.fire({

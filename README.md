@@ -1,8 +1,14 @@
-# React + Vite
+# Entertain Event Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live link
 
-Currently, two official plugins are available:
+click here for the live link: (https://a9-event-management.web.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## features and functionalities
+
+- Has a responsive navbar, showing current routes.
+- At the end of the navbar there is a login button, if you click this button you will see the login page to login our website.
+- If you don't have an account in our website, then you can toggle the registration page and you can register you account on our website.
+- On the home page there are some services for event management, each service has a details button, if you click this button you will see the details of the event. 
+- You can book this event on the details page.
